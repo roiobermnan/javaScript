@@ -1,0 +1,161 @@
+table{
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    caption-side: top;
+    border-spacing: 10px;
+    border: solid 5px black;
+    background-color: darkgreen;
+}
+#caption{
+    color: black;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif, 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 
+     'Times New Roman', Times, serif, Haettenschweiler,
+      'Arial Narrow Bold', sans-serif;
+}
+#clicked{
+    width: 1.5cm;
+    height: 1cm;
+    border:double black 3px;
+    color: rgb(204, 210, 29);
+    background-color:rgb(204, 210, 29);
+    border-radius: 8px;
+}
+#blueTurn{
+    background-color:  rgb(6, 6, 76);
+    width: 1.5cm;
+    height: 1cm;
+    border:solid rgb(204, 210, 29);
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(204, 210, 29);
+    
+}
+#blueTurn:hover{
+background-color: rgb(63, 63, 176);
+}
+#redTurn{
+    background-color: rgb(59, 3, 3);
+    width: 1.5cm;
+    height: 1cm;
+    border:solid rgb(204, 210, 29);
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(204, 210, 29);
+}
+#redTurn:hover{
+    background-color: rgb(220, 42, 42);
+}
+#newGameBtn{
+    width: 1.5cm;
+    height: 1cm;
+    border:solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    color: black;
+    
+}
+#restOfBtn{
+    width: 1.5cm;
+    height: 1cm;
+    border:solid rgb(204, 210, 29);
+    border-radius: 8px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+#strike{
+    width: 1.5cm;
+    height: 1cm;
+    border:double black 7px;
+    border-radius: 8px;
+    color: rgb(204, 210, 29);
+    background-color:rgb(204, 210, 29);
+}
+
+#div1{
+    width: 13.25cm;
+    height: 1.3cm;
+    display: flex;
+    margin: auto;
+    margin-top: 10px ;
+    justify-content: space-between;
+    align-items: center;
+}
+#firstPlayer{
+    width: 2cm;
+    text-align: center;
+    color: rgb(63, 63, 176);
+    border:solid 5px rgb(63, 63, 176);
+    border-radius: 8px;
+}
+#newGame{
+    width: 4.5cm;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: darkgreen; 
+    border: solid 5px black;
+    align-self: stretch;
+    border-radius: 8px;
+}
+#newGame:hover{
+    background-color: rgb(73, 131, 73);
+}
+#seconedPlayer{
+    width: 2cm;
+    text-align: center;
+    color: rgb(220, 42, 42);
+    border:solid 5px  rgb(220, 42, 42);
+    border-radius: 8px;
+}
+#div2{
+    width: 14cm;
+    height: 1.3cm;
+    display: flex;
+    margin: auto;
+    margin-top: 10px ;
+    justify-content: space-between;
+    align-items: center;
+}
+#blueWin{
+    width: 3.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#letsPlayDiv{
+    width: 4.5cm;
+    height: 1.3cm;
+    align-items: center;
+}
+#letsPlay{
+    width: 4.5cm;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(204, 210, 29);
+    background-color: darkgreen; 
+    border: solid 5px rgb(204, 210, 29);
+    height: 1.3cm;
+    margin: auto;
+    border-radius: 8px;
+}
+#letsPlay:hover{
+    background-color: rgb(3, 40, 3);
+}
+#gameOver{
+    width: 4.5cm;
+    text-align: center;
+    height: 1.3cm;
+    margin-top: 0.15cm;
+}
+#redWin{
+    width: 3.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
